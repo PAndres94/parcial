@@ -42,14 +42,18 @@ body {
     transform: translate(-50%, -50%); 
 }
 
+.simbolo-pequeño {
+    position: absolute; /* Posicionamiento absoluto para los símbolos pequeños */
+    font-size: 30px; /* Tamaño de los símbolos pequeños */
+}
+
 .left {
-    top: 20px;
-    left: 20px;
+    top: 40px; /* Posición en la parte superior */
+    left: 15px; /* Posición a la izquierda */
 }
 
 .right {
-    bottom: 20px;
-    right: 20px;
-    transform: rotate(180deg);
-
+    bottom: 40px; /* Posición en la parte inferior */
+    right: 16px; /* Posición a la derecha */
+    transform: rotate(180deg); 
 }
