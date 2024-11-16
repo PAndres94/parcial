@@ -42,13 +42,14 @@ body {
     transform: translate(-50%, -50%); 
 }
 
-.simbolo-pequeño.left {
-    top: 300px;
-    left: 300px;
+.left {
+    top: 20px;
+    left: 20px;
 }
 
-.simbolo-pequeño.right {
-    bottom: 30px;
-    right: 30px;
+.right {
+    bottom: 20px;
+    right: 20px;
     transform: rotate(180deg);
+
 }
