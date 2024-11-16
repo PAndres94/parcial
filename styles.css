@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.carta {
+    width: 200px; 
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    font-family: 'Georgia';
+}
+
+.letra {
+    position: absolute;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.letra.top {
+    top: 10px;
+    left: 10px;
+}
+
+.letra.bottom {
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.simbolo {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.simbolo.pequeño.left {
+    
+}
