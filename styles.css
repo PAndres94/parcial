@@ -43,17 +43,17 @@ body {
 }
 
 .simbolo-pequeño {
-    position: absolute; /* Posicionamiento absoluto para los símbolos pequeños */
-    font-size: 30px; /* Tamaño de los símbolos pequeños */
+    position: absolute;
+    font-size: 30px;
 }
 
 .left {
-    top: 40px; /* Posición en la parte superior */
-    left: 15px; /* Posición a la izquierda */
+    top: 40px;
+    left: 15px;
 }
 
 .right {
-    bottom: 40px; /* Posición en la parte inferior */
-    right: 16px; /* Posición a la derecha */
+    bottom: 40px;
+    right: 16px;
     transform: rotate(180deg); 
 }
